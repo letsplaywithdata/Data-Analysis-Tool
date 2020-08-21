@@ -1,0 +1,52 @@
+# The following are the dependencies that need to be installed before running the dashboard
+
+# To run the file navigate to the path where the file in place on your desktop through the terminal and run the following command:
+# pip install -r requirements.txt
+
+# This file installs the following dependencies:
+
+# Installing plotly for plotting various figures in our dashboard
+plotly>=4.1.0
+
+# Installing the dash framework for building interactive dashboards in python
+dash>=1.1.1
+
+# Installing the front-end renderer component for dash
+dash-renderer>=1.0.0
+
+# Installing the core components for dash which inclued varios figures, graphs, etc. 
+dash-core-components>=1.1.1
+
+# Installing the layout components which help in providing basic layout for the dash apps
+dash-html-components>=1.0.0
+
+# Installing bootstrap based components to interface with our dash app for advanced formatting, containers and layouts
+dash-bootstrap-components>=0.7.0
+
+# Installing dash table which is a framework for advanced table formats and layouts
+dash-table>=4.1.0
+
+# Installing the flask api
+flask>=1.1.1
+
+# Installing gunicorn, a Python WSGI HTTP Server for UNIX
+gunicorn>=19.9.0
+
+# Installing the pandas for handling panel data
+pandas>=0.25.0
+
+# Installing xlrd for excel support
+xlrd>=1.0.0
+
+# Installing flask basicauth for authorization
+# Flask-BasicAuth>=0.2.0
+
+# Installing statsmodels for linear and logistic regressions
+statsmodels>=0.11.1
+
+# Installing scipy for hypothesis test
+scipy>=1.4.1
+
+# Installing scikit learn for normalization
+scikit-learn>=0.22.2
+
